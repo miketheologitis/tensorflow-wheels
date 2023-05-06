@@ -4,7 +4,7 @@ This repository contains pre-built wheel files for TensorFlow.
 
 ## Compatibility
 
-The following table lists the TensorFlow versions, hardware configuration, Python version, CUDA version, supported (and not supported) instructions, supported operating systems, and download link for each wheel:
+The following table lists the TensorFlow versions, hardware configuration, Python version, CUDA version, supported (and not supported) instructions, supported operating systems, and download link for each wheel (from inside this repository):
 
 | TF version | Hardware | Python version | CUDA version | Supported instructions | Not Supported instructions | OS | Download link |
 | ---------- | -------- | -------------- | ------------ | ---------------------- | -------------------------- | -- | ------------- |
@@ -15,7 +15,7 @@ The following table lists the TensorFlow versions, hardware configuration, Pytho
 
 1. Download the wheel file.
 
-2. Create python enviroment that matches the build.
+2. Create enviroment with the python version that matches the build.
 ```bash 
 conda create --name * python=X.Y
 conda activate *
