@@ -4,8 +4,8 @@ This repository contains pre-built wheel files for TensorFlow, a popular open-so
 
 ## Download Links
 
-- TensorFlow 2.12.0, Python 3.9, CPU version: [tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl](https://example.com/downloads/tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl)
-- TensorFlow 2.4.1, Python 3.8, CPU version: [tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl](https://example.com/downloads/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl)
+- TensorFlow 2.12.0, Python 3.9, CPU version: [tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl](./wheels/2.12.0/py39/CPU/tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl)
+- TensorFlow 2.4.1, Python 3.8, CPU version: [tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl](./wheels/2.4.1/py38/CPU/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl)
 
 ## Installation
 
