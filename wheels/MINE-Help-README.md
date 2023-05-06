@@ -1,3 +1,6 @@
+# This is not a README.md. This is for my own use.
+Structured way to build Tensorflow.
+
 ## Ubuntu 18.04 x86_64 install TensorFlow 2.4.1 (python 3.8, Bazel 3.1.0) with support SSE, SSE2,SSE3 without SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA instructions
 
 Careful with `gcc` and `g++` compilers, `numpy` version depending on TF (got some errors, carelessness). Of course this also is true for `bazel`.
