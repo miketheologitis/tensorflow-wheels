@@ -1,6 +1,6 @@
-# Ubuntu 18.04 x86_64
-# Install TensorFlow 2.4.1 (python 3.8, Bazel 3.1.0) with support SSE, SSE2,SSE3
-# without SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA
+## Ubuntu 18.04 x86_64 install TensorFlow 2.4.1 (python 3.8, Bazel 3.1.0) with support SSE, SSE2,SSE3 without SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA instructions
+
+Careful with `gcc` and `g++` compilers, `numpy` version depending on TF (got some errors, carelessness). Of course this also is true for `bazel`.
 
 ## 1. Create a new conda environment with Python 3.8
 ```bash
@@ -83,11 +83,7 @@ bazel build --config=opt //tensorflow/tools/pip_package:build_pip_package
 pip install /tmp/tensorflow_pkg/tensorflow-<version>-<additional_information>.whl
 ```
 
-
-in-between
+## In-between builds (if something goes wrong)
+```bash
 bazel clean --expunge
-
-It appears that you are using GCC and G++ version 7.5.0. TensorFlow recommends using GCC and G++ version 9.3.0 or later. To update your GCC and G++ compilers, follow these steps:
-
-
-Notes: For Tensorflow 2.4.1 pip install "numpy<1.20" for np.object
+```
