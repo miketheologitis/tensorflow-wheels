@@ -13,7 +13,7 @@ The following table lists the TensorFlow versions, hardware configuration, Pytho
 
 ## Installation
 
-1. Download the wheel file.
+1. Choose your preferred build (wheel file) from the table above and download it using the provided link.
 
 2. Create enviroment with the python version that matches the build.
 ```bash 
@@ -21,7 +21,7 @@ conda create --name * python=X.Y
 conda activate *
 ```
 
-3. Using `pip` install the built tensorflow from the `.whl` file.
+3. Using `pip` install the built tensorflow from the `.whl` file you downloaded.
 ```bash 
 pip install *.whl 
 ```
