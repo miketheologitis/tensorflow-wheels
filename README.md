@@ -12,4 +12,17 @@ This repository contains pre-built wheel files for TensorFlow, a popular open-so
 To install a wheel file from this repository, you can use the `pip` command:
 
 
+# TensorFlow Wheels
 
+This repository contains pre-built wheel files for TensorFlow, a popular open-source machine learning framework. All wheels provided here are built for Linux on x86_64 architecture, and have a minimum of CUDA compute capability of 6.1.
+
+## Compatibility
+
+The following table lists the TensorFlow versions, hardware configuration, Python version, CUDA version, cuDNN version, supported instructions, supported operating systems, and download link for each wheel:
+
+| TF version | Hardware | Python version | CUDA version | cuDNN version | Supported instructions | OS | Download link |
+| ---------- | -------- | -------------- | ------------ | ------------- | ---------------------- | -- | --------------|
+| 2.12.0 | CPU | 3.9 | - | - | SSE4.X,AVX,AVX2,FMA | Ubuntu 20.04, 20.10, Arch Linux | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.12.0/py39/CPU/tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl) |
+| 2.4.1 | CPU | 3.8 | - | - | SSE4.X,AVX,AVX2,FMA | Ubuntu 18.04, Arch Linux | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.4.1/py38/CPU/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl) |
+
+## Installation
