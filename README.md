@@ -28,5 +28,5 @@ pip install *.whl
 
 4. Verify the installation
 ```bash
-python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+python -c "import tensorflow as tf; print(f'\nVersion: {tf.__version__}\n'); print(f'\nRand Result: {tf.reduce_sum(tf.random.normal([1000, 1000]))}\n');"
 ```
