@@ -12,3 +12,21 @@ The following table lists the TensorFlow versions, hardware configuration, Pytho
 | 2.4.1 | CPU | 3.8 | - | SSE, SSE2, SSE3 | SSSE3, SSE4.1, SSE4.2, AVX, AVX2, FMA | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.4.1/py38/CPU/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl) |
 
 ## Installation
+
+1. Download the wheel file.
+
+2. Create python enviroment that matches the build.
+```bash 
+conda create --name * python=X.Y
+conda activate *
+```
+
+3. Using `pip` install the built tensorflow from the `.whl` file.
+```bash 
+pip install *.whl 
+```
+
+4. Verify the installation
+```bash
+python -c "import tensorflow as tf; print(tf.reduce_sum(tf.random.normal([1000, 1000])))"
+```
