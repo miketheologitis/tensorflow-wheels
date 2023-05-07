@@ -8,9 +8,9 @@ The following table lists the TensorFlow versions, hardware configuration, Pytho
 
 | TF version | Hardware | Python version | CUDA version | Supported instructions | Not Supported instructions | OS | Download link |
 | ---------- | -------- | -------------- | ------------ | ---------------------- | -------------------------- | -- | ------------- |
-| 2.12.0 | CPU | 3.9 | - | SSE, SSE2 | SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX512F, FMA | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.12.0/py39/CPU/SSE_SSE2/tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl) |
-| 2.4.1 | CPU | 3.8 | - | SSE, SSE2, SSE3 | (SSSE3), SSE4.1, SSE4.2, AVX, AVX2, AVX512F, FMA | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.4.1/py38/CPU/SSE_SSE2_SSE3/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl) |
-| 2.4.1 | CPU | 3.8 | - | SSE, SSE2 | SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX512F, FMA | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.4.1/py38/CPU/SSE_SSE2/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl) |
+| 2.12.0 | CPU | 3.9 | - | SSE, SSE2 | SSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX512F, FMA, (SSSE3) | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.12.0/py39/CPU/SSE_SSE2/tensorflow-2.12.0-cp39-cp39-linux_x86_64.whl) |
+| 2.4.1 | CPU | 3.8 | - | SSE, SSE2, SSE3 | SSE4.1, SSE4.2, AVX, AVX2, AVX512F, FMA, (SSSE3) | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.4.1/py38/CPU/SSE_SSE2_SSE3/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl) |
+| 2.4.1 | CPU | 3.8 | - | SSE, SSE2 | SSE3, SSE4.1, SSE4.2, AVX, AVX2, AVX512F, FMA, (SSSE3) | Ubuntu x86_64 18.04+ | [Download](https://github.com/miketheologitis/tensorflow-wheels/raw/main/wheels/2.4.1/py38/CPU/SSE_SSE2/tensorflow-2.4.1-cp38-cp38-linux_x86_64.whl) |
 
 ## Installation
 
