@@ -67,7 +67,7 @@ Answer the prompts as follows:
 - Do you wish to build TensorFlow with ROCm support? [y/N]: `N`
 - Do you wish to build TensorFlow with CUDA support? [y/N]: `N`
 - Do you wish to download a fresh release of clang? (Experimental) [y/N]: `N`
-- Please specify optimization flags to use during compilation when bazel option "--config=opt" is specified [Default is -Wno-sign-compare]: `-mno-avx -mno-avx2 -mno-fma -mno-ssse3 -mno-sse4.1 -mno-sse4.2`
+- Please specify optimization flags to use during compilation when bazel option "--config=opt" is specified [Default is -Wno-sign-compare]: `-msse -msse2 -msse3 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mno-avx -mno-avx2 -mno-fma -mno-avx512f`
 - Would you like to interactively configure ./WORKSPACE for Android builds? [y/N]: `N`
 
 ## 9. Build and install TensorFlow
